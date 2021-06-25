@@ -1,4 +1,4 @@
-public class Aula00 {
+public class Exercicio00 {
 
 	/*  Conceitos: lógica, programação, abstração---> resolver problemas. */
 	public static void main (String []args){
