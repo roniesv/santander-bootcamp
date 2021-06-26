@@ -1,0 +1,27 @@
+1- crie um algoritmo do seu dia.
+2- abra o site https://studio.code.org/s/mc/lessons/1/levels/1
+e tente resolver em menos de 1 hora todos os exercícios
+
+1-acordo
+2-levanto da cama
+3-Pego minha escova na gaveta.
+4-Vou ao banheiro.
+5-Escovo os dentes
+6-Guardo a escova
+7-Tomo banho e troco de roupa
+8-arrumo a cama
+9-tomo agua e depois café.
+10-vejo se tem comida dos animais, se não coloco.
+11-reparo se tem coco dos cachorro para panhar, se sim coloco no lixo.
+10-se for dia do lixo (seg, qua ou sex) retiro o lixo para fora.
+11-lavo as mãos e vou para o dia de estudo-trabalho normalmente até as 12h
+12-lancho as 10h e bebo aǵua.
+13-almoço 12h
+14- as 14h volto aos estudos-trabalho,
+15- lacho as 16:30
+12-No fim de tarde, faço exercícios físicos caminhada-corrida.
+13-janto as 19h
+14-escovo apos jantar
+14-estudo-trabalho 20h até 22:30
+15-leio até as 23h
+16-escovo se ainda não tiver feito e vou dormir
