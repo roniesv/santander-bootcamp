@@ -6,6 +6,7 @@ public class  Exercicio03 {
    public static void main(String []args){
       //Situação Problema comissão sobre a  média de vendas jan,fev, mar, abr
      double valor1,valor2,valor3,valor4,media,abono;
+     String nome;
      abono = 0; 
      Scanner s1 = new Scanner(System.in);
      System.out.println("Informe o valor das vendas em jan");
@@ -19,8 +20,12 @@ public class  Exercicio03 {
      System.out.println("Informe o valor das vendas em abr");
      Scanner s4 = new Scanner(System.in);
      valor4 = s4.nextDouble();
+     System.out.println("Digite o nome do vendedor");
+     Scanner s5 = new Scanner(System.in);
+     nome = s5.nextLine();
      
      media=(valor1+valor2+valor3+valor4)/4;
+     System.out.println("O seu nome é: "+nome);
      System.out.println("A média de vendas é: "+media);
      
      if(media>5000){
