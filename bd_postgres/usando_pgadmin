@@ -1,0 +1,10 @@
+--create role professores nocreatedb nocreaterole inherit nologin nobypassrls connection limit 10;
+--alter role professores password '123';
+drop role daniel;
+--create role daniel login password '123';
+--create role daniel login password '123' in role professores;
+--create role daniel login password '123' role professores;
+create table teste(nome varchar)
+grant all on table teste to professores;
+--create role daniel login password '123';
+revoke professores from daniel;
