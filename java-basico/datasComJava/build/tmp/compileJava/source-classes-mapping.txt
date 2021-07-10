@@ -1,2 +1,8 @@
+javaDate/Exemplo002.java
+ javaDate.Exemplo002
+javaDate/Exemplo003.java
+ Exemplo003
 javaDate/Exemplo001.java
  javaDate.Exemplo001
+javaDate/ExercicioFinal.java
+ javaDate.ExercicioFinal
