@@ -9,57 +9,59 @@ public class ExercicioFinal2 {
         Calendar dataPagamentoLimite;
         double valor;
         int dia, mes, ano;
+        boolean diasNaoUteis;
 
-        dia = 30; mes = 5; ano=2021;
+        dia = 1;
+        mes = 6;
+        ano = 2021;
         valor = 100;
         dataPagamento = Calendar.getInstance();
         dataVencimento = Calendar.getInstance();
         dataPagamentoLimite = Calendar.getInstance();
 
-        dataVencimento.set(Calendar.YEAR,ano);
+        dataVencimento.set(Calendar.YEAR, ano);
         dataVencimento.set(Calendar.MONTH, mes);
         dataVencimento.set(Calendar.DAY_OF_MONTH, dia);
 
 
-        dataPagamentoLimite.set(Calendar.YEAR,dataVencimento.get(Calendar.YEAR));
-        dataPagamentoLimite.set(Calendar.MONTH,dataVencimento.get(Calendar.MONTH));
-        dataPagamentoLimite.set(Calendar.DATE,dataVencimento.get(Calendar.DATE));
+        dataPagamentoLimite.set(Calendar.YEAR, dataVencimento.get(Calendar.YEAR));
+        dataPagamentoLimite.set(Calendar.MONTH, dataVencimento.get(Calendar.MONTH));
+        dataPagamentoLimite.set(Calendar.DATE, dataVencimento.get(Calendar.DATE));
+
         dataPagamentoLimite.add(Calendar.DATE, 10);
-
-
-
+        diasNaoUteis = testar(dataPagamentoLimite);
 
         fatura = new Fatura(dataVencimento, dataPagamento, valor);
 
-        if(dataPagamento.after(dataPagamentoLimite)){
+        if (dataPagamento.after(dataPagamentoLimite) && !diasNaoUteis) {
             System.out.println("pagamento dez dias depois nao e possivel");
-            System.out.print(dataPagamento.get(Calendar.DAY_OF_MONTH)+"/");
-            System.out.print(dataPagamento.get(Calendar.MONTH)+1+"/");
+            System.out.print(dataPagamento.get(Calendar.DAY_OF_MONTH) + "/");
+            System.out.print(dataPagamento.get(Calendar.MONTH) + 1 + "/");
             System.out.print(dataPagamento.get(Calendar.YEAR));
             System.out.println("");
             System.out.println("Vencimento em");
-            System.out.print(dataVencimento.get(Calendar.DAY_OF_MONTH)+"/");
-            System.out.print(dataVencimento.get(Calendar.MONTH)+1+"/");
+            System.out.print(dataVencimento.get(Calendar.DAY_OF_MONTH) + "/");
+            System.out.print(dataVencimento.get(Calendar.MONTH) + 1 + "/");
             System.out.print(dataVencimento.get(Calendar.YEAR));
 
             System.out.println("\nData limite max para pagamento em");
-            System.out.print(dataPagamentoLimite.get(Calendar.DAY_OF_MONTH)+"/");
-            System.out.print(dataPagamentoLimite.get(Calendar.MONTH)+1+"/");
+            System.out.print(dataPagamentoLimite.get(Calendar.DAY_OF_MONTH) + "/");
+            System.out.print(dataPagamentoLimite.get(Calendar.MONTH) + 1 + "/");
             System.out.print(dataPagamentoLimite.get(Calendar.YEAR));
-        }else{
+        } else {
             fatura.setStatus(true);
-            System.out.println("Fatura Paga "+fatura.isStatus());
-            System.out.print(dataPagamento.get(Calendar.DAY_OF_MONTH)+"/");
-            System.out.print(dataPagamento.get(Calendar.MONTH)+1+"/");
+            System.out.println("Fatura Paga " + fatura.isStatus());
+            System.out.print(dataPagamento.get(Calendar.DAY_OF_MONTH) + "/");
+            System.out.print(dataPagamento.get(Calendar.MONTH) + 1 + "/");
             System.out.print(dataPagamento.get(Calendar.YEAR));
             System.out.println("");
             System.out.println("Vencimento em");
-            System.out.print(dataVencimento.get(Calendar.DAY_OF_MONTH)+"/");
-            System.out.print(dataVencimento.get(Calendar.MONTH)+1+"/");
+            System.out.print(dataVencimento.get(Calendar.DAY_OF_MONTH) + "/");
+            System.out.print(dataVencimento.get(Calendar.MONTH) + 1 + "/");
             System.out.print(dataVencimento.get(Calendar.YEAR));
             System.out.println("\nData limite max para pagamento em");
-            System.out.print(dataPagamentoLimite.get(Calendar.DAY_OF_MONTH)+"/");
-            System.out.print(dataPagamentoLimite.get(Calendar.MONTH)+1+"/");
+            System.out.print(dataPagamentoLimite.get(Calendar.DAY_OF_MONTH) + "/");
+            System.out.print(dataPagamentoLimite.get(Calendar.MONTH) + 1 + "/");
             System.out.print(dataPagamentoLimite.get(Calendar.YEAR));
 
 
@@ -68,6 +70,11 @@ public class ExercicioFinal2 {
 
     }
 
+    static boolean testar(Calendar dt) {
+        if (dt.get(Calendar.DAY_OF_WEEK) == 1 || dt.get(Calendar.DAY_OF_WEEK) == 7)
+            return true;
+        return false;
+    }
 }
 class Fatura{
     double valor;
