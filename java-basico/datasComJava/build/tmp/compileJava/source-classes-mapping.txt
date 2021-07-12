@@ -6,8 +6,10 @@ javaDate/Exemplo001.java
  javaDate.Exemplo001
 javaDate/Exemplo002.java
  javaDate.Exemplo002
+dataFormat/ExercicioFinal3.java
+ dataFormat.ExercicioFinal3
 javaDate/ExercicioFinal2.java
  javaDate.ExercicioFinal2
  javaDate.Fatura
-dataFormat/ExercicioFinal3.java
- dataFormat.ExercicioFinal3
+localDateTime/ExercicioFinal3.java
+ localDateTime.ExercicioFinal3
