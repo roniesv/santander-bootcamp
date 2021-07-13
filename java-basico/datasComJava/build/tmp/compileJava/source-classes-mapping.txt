@@ -1,15 +1,56 @@
+exececoes/Test.java
+ exececoes.Test
+solid/OCP/problem/DescontoLivroAutoAjuda.java
+ solid.OCP.problem.DescontoLivroAutoAjuda
+solid/SRP/problem/OrdemDeCompra.java
+ solid.SRP.problem.OrdemDeCompra
+javaDate/Exemplo002.java
+ javaDate.Exemplo002
+solid/OCP/problem/ControladorDeDesconto.java
+ solid.OCP.problem.ControladorDeDesconto
+solid/OCP/solution/ControladorDeDesconto.java
+ solid.OCP.solution.ControladorDeDesconto
+solid/LSP/problem/Main.java
+ solid.LSP.problem.Main
+solid/LSP/problem/Quadrado.java
+ solid.LSP.problem.Quadrado
+solid/OCP/solution/DescontoLivro.java
+ solid.OCP.solution.DescontoLivro
+solid/OCP/solution/DescontoLivroInfantil.java
+ solid.OCP.solution.DescontoLivroInfantil
+solid/OCP/solution/DescontoLivroAutoAjuda.java
+ solid.OCP.solution.DescontoLivroAutoAjuda
+solid/OCP/solution/DescontoLivroAcao.java
+ solid.OCP.solution.DescontoLivroAcao
+javaDate/ExercicioFinal2.java
+ javaDate.ExercicioFinal2
+ javaDate.Fatura
+exerciciosFinais/Str.java
+ exerciciosFinais.Str
+solid/OCP/problem/DescontoLivroInfantil.java
+ solid.OCP.problem.DescontoLivroInfantil
+javaDate/Exemplo001.java
+ javaDate.Exemplo001
+solid/OCP/problem/DescontoLivroAcao.java
+ solid.OCP.problem.DescontoLivroAcao
+solid/LSP/problem/Retangulo.java
+ solid.LSP.problem.Retangulo
+dataFormat/ExercicioFinal3.java
+ dataFormat.ExercicioFinal3
+solid/SRP/problem/Produto.java
+ solid.SRP.problem.Produto
 javaDate/ExercicioFinal.java
  javaDate.ExercicioFinal
 javaDate/Exemplo003.java
  Exemplo003
-javaDate/Exemplo001.java
- javaDate.Exemplo001
-javaDate/Exemplo002.java
- javaDate.Exemplo002
-dataFormat/ExercicioFinal3.java
- dataFormat.ExercicioFinal3
-javaDate/ExercicioFinal2.java
- javaDate.ExercicioFinal2
- javaDate.Fatura
+exececoes/Aritmetica.java
+ exececoes.Aritmetica
 localDateTime/ExercicioFinal3.java
  localDateTime.ExercicioFinal3
+solid/SRP/solution/Produto.java
+ solid.SRP.solution.Produto
+solid/SRP/solution/OrdemDeCompra.java
+ solid.SRP.solution.OrdemDeCompra
+ solid.SRP.solution.OrdemDeCompraEmail
+ solid.SRP.solution.OrdemDeCompraPrint
+ solid.SRP.solution.OrdemDeCompraRepository
