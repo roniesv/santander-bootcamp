@@ -56,9 +56,8 @@ solid/DIP/solution/MySqlConnection.java
  solid.DIP.solution.MySqlConnection
 solid/DIP/solution/OracleConnection.java
  solid.DIP.solution.OracleConnection
-avancado/funcional/FuncaoDeAltaOrdem.java
- avancado.funcional.Calculo
- avancado.funcional.FuncaoDeAltaOrdem
+solid/ISP/solution/AvesVoam.java
+ solid.ISP.solution.AvesVoam
 avancado/funcional/ComposicaoDeFuncoes.java
  avancado.funcional.ComposicaoDeFuncoes
 solid/ISP/solution/Pinguim.java
@@ -86,5 +85,8 @@ solid/ISP/solution/Pato.java
  solid.ISP.solution.Pato
 solid/DIP/problem/Produto.java
  solid.DIP.problem.Produto
-solid/ISP/solution/AvesVoam.java
- solid.ISP.solution.AvesVoam
+avancado/funcional/FuncaoDeAltaOrdem.java
+ avancado.funcional.Calculo
+ avancado.funcional.FuncaoDeAltaOrdem
+avancado/funcional/Consumidores.java
+ avancado.funcional.Consumidores
