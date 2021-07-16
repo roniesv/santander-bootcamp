@@ -2,19 +2,29 @@ exececoes/Test.java
  exececoes.Test
 solid/OCP/problem/DescontoLivroAutoAjuda.java
  solid.OCP.problem.DescontoLivroAutoAjuda
+avancado/funcional/FuncaoDeAltaOrdem.java
+ avancado.funcional.Calculo
+ avancado.funcional.FuncaoDeAltaOrdem
+avancado/funcional/ComposicaoDeFuncoes.java
+ avancado.funcional.ComposicaoDeFuncoes
 solid/SRP/problem/OrdemDeCompra.java
  solid.SRP.problem.OrdemDeCompra
 javaDate/Exemplo002.java
  javaDate.Exemplo002
+solid/ISP/solution/Pinguim.java
+ solid.ISP.solution.Pinguim
+avancado/funcional/Funcoes.java
+ avancado.funcional.Funcoes
+solid/DIP/solution/ProdutoRepository.java
+ solid.DIP.solution.ProdutoRepository
 solid/OCP/problem/ControladorDeDesconto.java
  solid.OCP.problem.ControladorDeDesconto
 solid/OCP/solution/ControladorDeDesconto.java
  solid.OCP.solution.ControladorDeDesconto
-solid/SRP/solution/OrdemDeCompra.java
- solid.SRP.solution.OrdemDeCompra
- solid.SRP.solution.OrdemDeCompraEmail
- solid.SRP.solution.OrdemDeCompraPrint
- solid.SRP.solution.OrdemDeCompraRepository
+solid/LSP/problem/Main.java
+ solid.LSP.problem.Main
+solid/ISP/problem/Pinguim.java
+ solid.ISP.problem.Pinguim
 solid/LSP/problem/Quadrado.java
  solid.LSP.problem.Quadrado
 solid/OCP/solution/DescontoLivro.java
@@ -25,21 +35,44 @@ solid/OCP/solution/DescontoLivroAutoAjuda.java
  solid.OCP.solution.DescontoLivroAutoAjuda
 solid/OCP/solution/DescontoLivroAcao.java
  solid.OCP.solution.DescontoLivroAcao
+solid/DIP/problem/ProdutoRepository.java
+ solid.DIP.problem.ProdutoRepository
+ solid.DIP.problem.ProdutoRepository$MySqlConnection
 javaDate/ExercicioFinal2.java
  javaDate.ExercicioFinal2
  javaDate.Fatura
+solid/DIP/problem/Produto.java
+ solid.DIP.problem.Produto
+solid/ISP/solution/Pato.java
+ solid.ISP.solution.Pato
+solid/ISP/solution/AvesVoam.java
+ solid.ISP.solution.AvesVoam
+solid/DIP/solution/MySqlConnection.java
+ solid.DIP.solution.MySqlConnection
 exerciciosFinais/Str.java
  exerciciosFinais.Str
+solid/DIP/solution/OracleConnection.java
+ solid.DIP.solution.OracleConnection
 solid/OCP/problem/DescontoLivroInfantil.java
  solid.OCP.problem.DescontoLivroInfantil
 javaDate/Exemplo001.java
  javaDate.Exemplo001
+avancado/funcional/Consumidores.java
+ avancado.funcional.Consumidores
+solid/DIP/solution/Produto.java
+ solid.DIP.solution.Produto
 solid/OCP/problem/DescontoLivroAcao.java
  solid.OCP.problem.DescontoLivroAcao
 solid/LSP/problem/Retangulo.java
  solid.LSP.problem.Retangulo
+avancado/funcional/Predicados.java
+ avancado.funcional.Predicados
 dataFormat/ExercicioFinal3.java
  dataFormat.ExercicioFinal3
+solid/DIP/solution/DbConnection.java
+ solid.DIP.solution.DbConnection
+solid/ISP/problem/Pato.java
+ solid.ISP.problem.Pato
 solid/SRP/problem/Produto.java
  solid.SRP.problem.Produto
 javaDate/ExercicioFinal.java
@@ -48,52 +81,21 @@ javaDate/Exemplo003.java
  Exemplo003
 exececoes/Aritmetica.java
  exececoes.Aritmetica
-localDateTime/ExercicioFinal3.java
- localDateTime.ExercicioFinal3
-solid/SRP/solution/Produto.java
- solid.SRP.solution.Produto
-solid/DIP/solution/MySqlConnection.java
- solid.DIP.solution.MySqlConnection
-solid/DIP/solution/OracleConnection.java
- solid.DIP.solution.OracleConnection
-solid/ISP/solution/AvesVoam.java
- solid.ISP.solution.AvesVoam
-avancado/funcional/ComposicaoDeFuncoes.java
- avancado.funcional.ComposicaoDeFuncoes
-solid/ISP/solution/Pinguim.java
- solid.ISP.solution.Pinguim
-solid/DIP/solution/ProdutoRepository.java
- solid.DIP.solution.ProdutoRepository
-solid/DIP/solution/Produto.java
- solid.DIP.solution.Produto
-solid/DIP/solution/DbConnection.java
- solid.DIP.solution.DbConnection
-solid/ISP/problem/Pato.java
- solid.ISP.problem.Pato
-solid/LSP/problem/Main.java
- solid.LSP.problem.Main
 solid/ISP/problem/Ave.java
  solid.ISP.problem.Ave
-solid/ISP/problem/Pinguim.java
- solid.ISP.problem.Pinguim
-solid/DIP/problem/ProdutoRepository.java
- solid.DIP.problem.ProdutoRepository
- solid.DIP.problem.ProdutoRepository$MySqlConnection
-solid/ISP/solution/Ave.java
- solid.ISP.solution.Ave
-solid/ISP/solution/Pato.java
- solid.ISP.solution.Pato
-solid/DIP/problem/Produto.java
- solid.DIP.problem.Produto
-avancado/funcional/FuncaoDeAltaOrdem.java
- avancado.funcional.Calculo
- avancado.funcional.FuncaoDeAltaOrdem
-avancado/funcional/Consumidores.java
- avancado.funcional.Consumidores
-avancado/funcional/Funcoes.java
- avancado.funcional.Funcoes
-avancado/funcional/Predicados.java
- avancado.funcional.Predicados
 avancado/funcional/Supridores.java
  avancado.funcional.Pessoa
  avancado.funcional.Supridores
+localDateTime/ExercicioFinal3.java
+ localDateTime.ExercicioFinal3
+solid/ISP/solution/Ave.java
+ solid.ISP.solution.Ave
+solid/SRP/solution/Produto.java
+ solid.SRP.solution.Produto
+solid/SRP/solution/OrdemDeCompra.java
+ solid.SRP.solution.OrdemDeCompra
+ solid.SRP.solution.OrdemDeCompraEmail
+ solid.SRP.solution.OrdemDeCompraPrint
+ solid.SRP.solution.OrdemDeCompraRepository
+avancado/funcional/Iteracoes.java
+ avancado.funcional.Iteracoes
