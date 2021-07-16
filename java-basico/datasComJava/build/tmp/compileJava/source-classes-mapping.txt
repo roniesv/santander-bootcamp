@@ -90,3 +90,10 @@ avancado/funcional/FuncaoDeAltaOrdem.java
  avancado.funcional.FuncaoDeAltaOrdem
 avancado/funcional/Consumidores.java
  avancado.funcional.Consumidores
+avancado/funcional/Funcoes.java
+ avancado.funcional.Funcoes
+avancado/funcional/Predicados.java
+ avancado.funcional.Predicados
+avancado/funcional/Supridores.java
+ avancado.funcional.Pessoa
+ avancado.funcional.Supridores
