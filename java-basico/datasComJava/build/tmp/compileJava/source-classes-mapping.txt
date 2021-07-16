@@ -10,8 +10,11 @@ solid/OCP/problem/ControladorDeDesconto.java
  solid.OCP.problem.ControladorDeDesconto
 solid/OCP/solution/ControladorDeDesconto.java
  solid.OCP.solution.ControladorDeDesconto
-solid/LSP/problem/Main.java
- solid.LSP.problem.Main
+solid/SRP/solution/OrdemDeCompra.java
+ solid.SRP.solution.OrdemDeCompra
+ solid.SRP.solution.OrdemDeCompraEmail
+ solid.SRP.solution.OrdemDeCompraPrint
+ solid.SRP.solution.OrdemDeCompraRepository
 solid/LSP/problem/Quadrado.java
  solid.LSP.problem.Quadrado
 solid/OCP/solution/DescontoLivro.java
@@ -49,8 +52,39 @@ localDateTime/ExercicioFinal3.java
  localDateTime.ExercicioFinal3
 solid/SRP/solution/Produto.java
  solid.SRP.solution.Produto
-solid/SRP/solution/OrdemDeCompra.java
- solid.SRP.solution.OrdemDeCompra
- solid.SRP.solution.OrdemDeCompraEmail
- solid.SRP.solution.OrdemDeCompraPrint
- solid.SRP.solution.OrdemDeCompraRepository
+solid/DIP/solution/MySqlConnection.java
+ solid.DIP.solution.MySqlConnection
+solid/DIP/solution/OracleConnection.java
+ solid.DIP.solution.OracleConnection
+avancado/funcional/FuncaoDeAltaOrdem.java
+ avancado.funcional.Calculo
+ avancado.funcional.FuncaoDeAltaOrdem
+avancado/funcional/ComposicaoDeFuncoes.java
+ avancado.funcional.ComposicaoDeFuncoes
+solid/ISP/solution/Pinguim.java
+ solid.ISP.solution.Pinguim
+solid/DIP/solution/ProdutoRepository.java
+ solid.DIP.solution.ProdutoRepository
+solid/DIP/solution/Produto.java
+ solid.DIP.solution.Produto
+solid/DIP/solution/DbConnection.java
+ solid.DIP.solution.DbConnection
+solid/ISP/problem/Pato.java
+ solid.ISP.problem.Pato
+solid/LSP/problem/Main.java
+ solid.LSP.problem.Main
+solid/ISP/problem/Ave.java
+ solid.ISP.problem.Ave
+solid/ISP/problem/Pinguim.java
+ solid.ISP.problem.Pinguim
+solid/DIP/problem/ProdutoRepository.java
+ solid.DIP.problem.ProdutoRepository
+ solid.DIP.problem.ProdutoRepository$MySqlConnection
+solid/ISP/solution/Ave.java
+ solid.ISP.solution.Ave
+solid/ISP/solution/Pato.java
+ solid.ISP.solution.Pato
+solid/DIP/problem/Produto.java
+ solid.DIP.problem.Produto
+solid/ISP/solution/AvesVoam.java
+ solid.ISP.solution.AvesVoam
