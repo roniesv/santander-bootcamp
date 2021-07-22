@@ -99,3 +99,7 @@ solid/SRP/solution/OrdemDeCompra.java
  solid.SRP.solution.OrdemDeCompraRepository
 avancado/funcional/Iteracoes.java
  avancado.funcional.Iteracoes
+procAssicroESincro/ThreadExemplo.java
+ procAssicroESincro.BarraDeCarregamento
+ procAssicroESincro.GeradorPDF
+ procAssicroESincro.ThreadExemplo
