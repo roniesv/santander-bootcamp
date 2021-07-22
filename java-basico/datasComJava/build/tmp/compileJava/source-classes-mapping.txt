@@ -1,5 +1,9 @@
-solid/SRP/solution/Produto.java
- solid.SRP.solution.Produto
+procAssicroESincro/FutureExemplo.java
+ procAssicroESincro.Atividade
+ procAssicroESincro.Casa
+ procAssicroESincro.Comodo
+ procAssicroESincro.FutureExemplo
+ procAssicroESincro.Quarto
 avancado/funcional/FuncaoDeAltaOrdem.java
  avancado.funcional.Calculo
  avancado.funcional.FuncaoDeAltaOrdem
@@ -103,9 +107,5 @@ javaDate/Exemplo003.java
  Exemplo003
 exececoes/Aritmetica.java
  exececoes.Aritmetica
-procAssicroESincro/FutureExemplo.java
- procAssicroESincro.Atividade
- procAssicroESincro.Casa
- procAssicroESincro.Comodo
- procAssicroESincro.FutureExemplo
- procAssicroESincro.Quarto
+solid/SRP/solution/Produto.java
+ solid.SRP.solution.Produto
