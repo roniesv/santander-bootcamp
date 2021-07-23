@@ -109,3 +109,5 @@ exececoes/Aritmetica.java
  exececoes.Aritmetica
 solid/SRP/solution/Produto.java
  solid.SRP.solution.Produto
+procAssicroESincro/PararelStreamExemplo.java
+ procAssicroESincro.PararelStreamExemplo
