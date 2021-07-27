@@ -6,6 +6,12 @@ public class ListaDePasseioEscolar {
     List<String> alunos;
     String descricao;
 
+    public ListaDePasseioEscolar(String descricao)
+    {
+        this.alunos = new ArrayList<>();
+        this.descricao = descricao;
+    }
+
     public static void main(String[] args) {
         ListaDePasseioEscolar listaPasseiJequitibar = new ListaDePasseioEscolar("Passeio no Parque jequitiba sobradinho");
         listaPasseiJequitibar.adicionarAluno("Miguel");
@@ -20,24 +26,24 @@ public class ListaDePasseioEscolar {
         listaPasseiJequitibar.adicionarAluno("Snoopy");
         //Relatorio da lista
         System.out.println("Relatorio da 1 lista");
-        listaPasseiJequitibar.relatorioDoPasseio(listaPasseiJequitibar);
+        listaPasseiJequitibar.relatorioDoPasseio();
         //imprimir index pelo nome
         System.out.println("Buscar Index do Mattew Gordon");
-        System.out.println(listaPasseiJequitibar.buscarAluno("Mattew Gordon"));
+        System.out.println(listaPasseiJequitibar.buscarIndexAluno("Mattew Gordon"));
         //corrigir nome
         System.out.println("Corrigindo nome Mattew Gordon --> Matt");
-        listaPasseiJequitibar.atualizarPorNomeAluno("Mattew Gordon", "Matt");
+        listaPasseiJequitibar.AlterarNomeAluno("Mattew Gordon", "Matt");
         //Relatorio apos corrigir nome
-        listaPasseiJequitibar.relatorioDoPasseio(listaPasseiJequitibar);
+        listaPasseiJequitibar.relatorioDoPasseio();
         //remover nomes da lista
         System.out.println("Removendo Matt e Rose Gordon da 1 lista");
         listaPasseiJequitibar.removerAluno("Matt");
         listaPasseiJequitibar.removerAluno("Rose Gordon");
         //Relatorio apos remocoes
-        listaPasseiJequitibar.relatorioDoPasseio(listaPasseiJequitibar);
+        listaPasseiJequitibar.relatorioDoPasseio();
         //Procurar pelo index
         System.out.println("Pesquisando pelo Index --> 1");
-        System.out.println(listaPasseiJequitibar.pesquisarPosicao(1));
+        System.out.println(listaPasseiJequitibar.pesquisarAlunoPeloIndex(1));
         //Existe aluno na lista?
         System.out.println("Pesquisando se existe na lista o nome --> Charle Gordon");
         System.out.println(listaPasseiJequitibar.existeAluno("Charle Gordon"));
@@ -50,37 +56,44 @@ public class ListaDePasseioEscolar {
 
         //Relatorio Segunda lista
         System.out.println("Relatorio 2 lista");
-        trilha.relatorioDoPasseio(trilha);
+        trilha.relatorioDoPasseio();
         //Adicionar Segunda lista na Primeira lista
         System.out.println("Adicionando toda a lista 2 na lista 1");
-        listaPasseiJequitibar.adicionarLista(trilha.alunos, listaPasseiJequitibar.alunos);
+        listaPasseiJequitibar.adicionarLista(trilha.alunos);
         //Relatorio da Primeira lista depois de juntar os elementos da segunda
         System.out.println("Relatorio Lista 1 Apos a inclusao da outra lista");
-        listaPasseiJequitibar.relatorioDoPasseio(listaPasseiJequitibar);
+        listaPasseiJequitibar.relatorioDoPasseio();
         //adicionar um elemento da segunda lista
         System.out.println("Adicionando Alidio na lista 2");
         trilha.adicionarAluno("Alidio");
         //ordena segunda lista
         System.out.println("Ordenando 2 lista em ordem Alfabetica");
-        trilha.ordemAlfabeticaAZ(trilha.alunos);
+        trilha.ordemAlfabeticaAZ();
         //Relatorio da segunda lista apos mudancas
-        trilha.relatorioDoPasseio(trilha);
+        trilha.relatorioDoPasseio();
         //adiciona elemento na segunda lista
         System.out.println("Removendo Macunaima da 1 primeira Lista");
         listaPasseiJequitibar.removerAluno("Macunaima");
         //relatorio da primeira lista removido elemento
-        listaPasseiJequitibar.relatorioDoPasseio(listaPasseiJequitibar);
+        listaPasseiJequitibar.relatorioDoPasseio();
+        //lista todos
+        System.out.println("Listar Todos lista 1");
+        listaPasseiJequitibar.listarTodos();
+        System.out.println("Listar Todos lista 2");
+        trilha.listarTodos();
+        System.out.println("Lista 2 Decrescente");
+        trilha.ordemAlfabeticaZA();
+        trilha.listarTodos();
+        //comparar listas
+        listaPasseiJequitibar.copiarLista(trilha);
 
 
 
 
 
-    }
 
-    public ListaDePasseioEscolar(String descricao)
-    {
-        this.alunos = new ArrayList<>();
-        this.descricao = descricao;
+
+
     }
 
     public void adicionarAluno(String nome){
@@ -89,22 +102,25 @@ public class ListaDePasseioEscolar {
     public void removerAluno(String nome){
         alunos.remove(nome);
     }
-    public void atualizarPorNomeAluno( String nome, String novo) {
+    public void AlterarNomeAluno(String nome, String novo) {
         int index =-1;
-        index = buscarAluno(nome);
+        index = buscarIndexAluno(nome);
         alunos.set(index, novo);
     }
-    public String pesquisarPosicao(int index){
+    public String pesquisarAlunoPeloIndex(int index){
         return alunos.get(index);
     }
-    public int buscarAluno(String nome){
+    public int buscarIndexAluno(String nome){
         int index =-1;
         index = alunos.indexOf(nome);
         return index;
     }
-    public void ordemAlfabeticaAZ(List lista)
+    public void ordemAlfabeticaAZ()
     {
-        Collections.sort(lista);
+        Collections.sort(alunos);
+    }
+    public void ordemAlfabeticaZA(){
+        Collections.sort(alunos,Collections.reverseOrder());
     }
     public void listarTodos(){
         for (String nome:alunos) {
@@ -120,19 +136,36 @@ public class ListaDePasseioEscolar {
         contem =  alunos.contains(nome);
         return contem;
     }
-    public void adicionarLista(List lista, List ListaDestino){
-        ListaDestino.addAll(lista);
+    public void adicionarLista(List lista){
+        alunos.addAll(lista);
 
     }
-    public void relatorioDoPasseio(ListaDePasseioEscolar lista){
+    public void relatorioDoPasseio(){
         System.out.println("==========================================");
-        System.out.println(lista.descricao);
+        System.out.println(descricao);
         System.out.println("==========================================");
-        lista.listarTodos();
+        listarTodos();
         System.out.println("==========================================");
-        lista.imprimirQuantidade();
+        imprimirQuantidade();
         System.out.println("==========================================");
 
+    }
+    public void compararLista(ListaDePasseioEscolar lista){
+        System.out.println(alunos.containsAll(lista.alunos));
+    }
+    public ListaDePasseioEscolar copiarLista(ListaDePasseioEscolar lista){
+        ListaDePasseioEscolar aux = new ListaDePasseioEscolar("Copy Auxiliar");
+        aux.alunos.addAll(lista.alunos);
+        System.out.println(aux.alunos);
+        System.out.println(lista.alunos);
+        lista.adicionarAluno("teste");
+        aux.adicionarAluno("teste");
+        System.out.println(aux.alunos);
+        System.out.println(lista.alunos);
+        aux.compararLista(lista);
+
+
+        return aux;
     }
 
 
