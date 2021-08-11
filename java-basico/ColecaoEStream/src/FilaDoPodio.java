@@ -1,18 +1,18 @@
 import java.util.*;
 
-public class ListaDoPodio {
+public class FilaDoPodio {
     //Estrutura Fila
     Queue<String> atletas;
     String descricao;
 
-    public ListaDoPodio(String descricao)
+    public FilaDoPodio(String descricao)
     {
         this.atletas= new LinkedList<>();
         this.descricao = descricao;
     }
 
     public static void main(String[] args) {
-        ListaDoPodio ClassificacaoJudo2021 = new ListaDoPodio("Olimpiadas de tokio 2021 - judo");
+        FilaDoPodio ClassificacaoJudo2021 = new FilaDoPodio("Olimpiadas de tokio 2021 - judo");
 
         //adicionando ok
         ClassificacaoJudo2021.adicionarAtleta("Miguel");
@@ -53,7 +53,7 @@ public class ListaDoPodio {
         System.out.println("Pesquisando se existe na lista o nome --> Charle Gordon");
         System.out.println(ClassificacaoJudo2021.existeAtleta("Charle Gordon"));
         //Segunda lista
-        ListaDoPodio classificacaoSkate2021 = new ListaDoPodio("Olimpiadas de tokio 2021 - Skate");
+        FilaDoPodio classificacaoSkate2021 = new FilaDoPodio("Olimpiadas de tokio 2021 - Skate");
         classificacaoSkate2021.adicionarAtleta("Gon");
         classificacaoSkate2021.adicionarAtleta("Killua");
         classificacaoSkate2021.adicionarAtleta("Macunaima");
@@ -91,7 +91,7 @@ public class ListaDoPodio {
         classificacaoSkate2021.listarTodos();
         //comparar listas
         ClassificacaoJudo2021.copiarLista(classificacaoSkate2021);
-        ListaDoPodio nw = new ListaDoPodio("Copiar");
+        FilaDoPodio nw = new FilaDoPodio("Copiar");
         nw.copiarLista(classificacaoSkate2021);
         nw.listarTodos();
         nw.eListaVazia();
@@ -172,11 +172,11 @@ public class ListaDoPodio {
         System.out.println("==========================================");
 
     }
-    public void compararLista(ListaDoPodio lista){
+    public void compararLista(FilaDoPodio lista){
         System.out.println(atletas.containsAll(lista.atletas));
     }
-    public ListaDoPodio copiarLista(ListaDoPodio lista){
-        ListaDoPodio aux = new ListaDoPodio("Copy Auxiliar");
+    public FilaDoPodio copiarLista(FilaDoPodio lista){
+        FilaDoPodio aux = new FilaDoPodio("Copy Auxiliar");
         aux.atletas.addAll(lista.atletas);
         System.out.println(aux.atletas);
         System.out.println(lista.atletas);
@@ -189,7 +189,7 @@ public class ListaDoPodio {
 
         return aux;
     }
-    public void limparLista(ListaDoPodio lista){
+    public void limparLista(FilaDoPodio lista){
         lista.atletas.clear();
     }
     public void eListaVazia(){
