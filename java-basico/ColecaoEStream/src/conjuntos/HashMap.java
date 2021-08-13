@@ -1,3 +1,5 @@
+package conjuntos;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
@@ -135,7 +137,7 @@ public class HashMap {
 //        classificacaoSkate2021.listarTodos();
 //        //comparar listas
 //        //golpesPersonagensDeAnimesFamosos.copiarLista(classificacaoSkate2021);
-//        SetTeste nw = new SetTeste("Copiar");
+//        conjuntos.SetTeste nw = new conjuntos.SetTeste("Copiar");
 //        nw.copiarLista(classificacaoSkate2021);
 //        nw.listarTodos();
 //        nw.eListaVazia();

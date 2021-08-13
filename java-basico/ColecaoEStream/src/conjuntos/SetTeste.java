@@ -1,5 +1,6 @@
+package conjuntos;
+
 import java.util.HashSet;
-import java.util.Set;
 
 public class SetTeste {
     //Estrutura Lista nao ordenada
@@ -56,7 +57,7 @@ public class SetTeste {
         //System.out.println("Pesquisando se existe na lista o nome --> Charle Gordon");
         //System.out.println(golpesPersonagensDeAnimesFamosos.existeAtleta("Charle Gordon"));
         //Segunda lista
-//        SetTeste classificacaoSkate2021 = new SetTeste("Olimpiadas de tokio 2021 - Skate");
+//        conjuntos.SetTeste classificacaoSkate2021 = new conjuntos.SetTeste("Olimpiadas de tokio 2021 - Skate");
 //        classificacaoSkate2021.adicionarGolpe("Gon");
 //        classificacaoSkate2021.adicionarGolpe("Killua");
 //        classificacaoSkate2021.adicionarGolpe("Macunaima");
@@ -94,7 +95,7 @@ public class SetTeste {
 //        classificacaoSkate2021.listarTodos();
 //        //comparar listas
 //        //golpesPersonagensDeAnimesFamosos.copiarLista(classificacaoSkate2021);
-//        SetTeste nw = new SetTeste("Copiar");
+//        conjuntos.SetTeste nw = new conjuntos.SetTeste("Copiar");
 //        nw.copiarLista(classificacaoSkate2021);
 //        nw.listarTodos();
 //        nw.eListaVazia();
