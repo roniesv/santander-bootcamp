@@ -65,8 +65,8 @@ public class ExemploStreamAPI {
         .map(ninja -> ninja.concat("--").concat(String.valueOf(ninja.length())))
         .peek(System.out::println)
         .filter(ninja -> ninja.toLowerCase().contains("r"))
-        .collect(Collectors.toList()));
-        //collect(Collectors.joining(", ")));
+        //.collect(Collectors.toList()));
+        .collect(Collectors.joining(", ")));
         //collect(Collectors.toSet(", ")));
         //collect(Collectors.groupingBy(ninja -> ninja.substring(estudante.indexOf("-")+1))));
 
