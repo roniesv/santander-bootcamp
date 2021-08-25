@@ -1,16 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="94fe02a9-ed6c-485a-a106-92d7997bd671" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/datasComJava/src/main/java/exececoes/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasComJava/.gradle/6.8/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/datasComJava/.gradle/6.8/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasComJava/.gradle/6.8/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/datasComJava/.gradle/6.8/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasComJava/.gradle/6.8/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/datasComJava/.gradle/6.8/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasComJava/.gradle/6.8/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/datasComJava/.gradle/6.8/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasComJava/.gradle/6.8/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/datasComJava/.gradle/6.8/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasComJava/.gradle/6.8/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/datasComJava/.gradle/6.8/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasComJava/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/datasComJava/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasComJava/build/tmp/compileJava/source-classes-mapping.txt" beforeDir="false" afterPath="$PROJECT_DIR$/datasComJava/build/tmp/compileJava/source-classes-mapping.txt" afterDir="false" />
+    <list default="true" id="94fe02a9-ed6c-485a-a106-92d7997bd671" name="Default Changelist" comment="Implementacao JDBC entity manager">
+      <change afterPath="$PROJECT_DIR$/../jdbc-jpa/src/main/java/jdbc_daniel/ConnectionFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jdbc-jpa/src/main/java/jdbc_daniel/ConnectionJDBC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jdbc-jpa/src/main/java/jdbc_daniel/Curso.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jdbc-jpa/src/main/java/jdbc_daniel/CursoDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jdbc-jpa/src/main/java/jdbc_daniel/ExercicioFinalJDBC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jdbc-jpa/src/main/java/jpa_daniel/ExecutionPart1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jdbc-jpa/src/main/java/jpa_daniel/ExecutionPart2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jdbc-jpa/src/main/java/jpa_daniel/ExercicioFinal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jdbc-jpa/src/main/java/jpa_daniel/classes/Aluno.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jdbc-jpa/src/main/java/jpa_daniel/classes/Estado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jdbc-jpa/src/main/java/jpa_daniel/classes/ExecutionPart3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jdbc-jpa/src/main/java/jpa_daniel/classes/persistence.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jdbc-jpa/src/main/java/resources/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +45,14 @@
       <option name="presentableId" value="Default" />
       <updated>1626131559389</updated>
     </task>
+    <task id="LOCAL-00001" summary="Implementacao JDBC entity manager">
+      <created>1629767205188</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1629767205188</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -52,5 +65,10 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Implementacao JDBC entity manager" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implementacao JDBC entity manager" />
   </component>
 </project>

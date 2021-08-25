@@ -1,0 +1,38 @@
+plugins {
+    id 'java'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.0'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.7.0'
+    // https://mvnrepository.com/artifact/mysql/mysql-connector-java
+    implementation group: 'mysql', name: 'mysql-connector-java', version: '8.0.26'
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+
+    // https://mvnrepository.com/artifact/org.hibernate.javax.persistence/hibernate-jpa-2.1-api
+    // implementation group: 'org.hibernate.javax.persistence', name: 'hibernate-jpa-2.1-api', version: '1.0.2.Final'
+
+    // https://mvnrepository.com/artifact/org.hibernate/hibernate-core
+    implementation group: 'org.hibernate', name: 'hibernate-core', version: '5.5.6.Final'
+
+    // https://mvnrepository.com/artifact/org.eclipse.persistence/org.eclipse.persistence.jpa
+    implementation group: 'org.eclipse.persistence', name: 'org.eclipse.persistence.jpa', version: '2.7.7'
+
+// https://mvnrepository.com/artifact/org.hibernate.orm/hibernate-jpamodelgen
+    //implementation group: 'org.hibernate.orm', name: 'hibernate-jpamodelgen', version: '6.0.0.Alpha9'
+    annotationProcessor('org.hibernate:hibernate-jpamodelgen:6.0.0.Alpha9')
+
+
+}
+
+test {
+    useJUnitPlatform()
+}
